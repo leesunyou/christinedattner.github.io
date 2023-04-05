@@ -1,0 +1,505 @@
+.tea {
+  max-width: 375px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.title {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 2em;
+  font-family: 'NanumSquareNeoBold';
+  cursor: default;
+}
+
+.category {
+  width: 195px;
+  height: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+.category p {
+  font-size: 1.3em;
+  font-family: 'NanumSquareNeoBold';
+  text-align: center;
+}
+
+.all,
+.tealeaves,
+.teabag {
+  display: inline-block;
+  width: 55px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.teabag {
+  background: #c82e2e;
+}
+
+.teabag p {
+  color: #fff;
+  transform: translateY(5px);
+}
+
+.all,
+.tealeaves {
+  border: 2px solid #c82e2e;
+  transform: translateY(2px);
+}
+
+.all p,
+.tealeaves p {
+  color: #c82e2e;
+  transform: translateY(3px);
+}
+
+.all,
+.tealeaves {
+  margin-right: 10px;
+}
+
+.conts {
+  width: 315px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+.conts>div {
+  display: inline-block;
+  width: 152.5px;
+  height: 222.5px;
+  margin-right: 7px;
+  margin-bottom: 15px;
+}
+
+.conts>div:nth-child(even) {
+  margin-right: 0px;
+}
+
+.conts>div div:nth-child(1) {
+  width: 152.5px;
+  height: 152.5px;
+  transition: .3s;
+}
+
+.img1 {
+  background: url(../img/s1_maldives_01.jpg) no-repeat center/cover;
+}
+
+.img1:hover {
+  background: url(../img/s1_maldives_02.jpg) no-repeat center/cover;
+}
+
+.img2 {
+  background: url(../img/s1_rooibosgoji_01.jpg) no-repeat center/cover;
+}
+
+.img2:hover {
+  background: url(../img/s1_rooibosgoji_02.jpg) no-repeat center/cover;
+}
+
+.img3 {
+  background: url(../img/s1_saintlaurent_01.jpg) no-repeat center/cover;
+}
+
+.img3:hover {
+  background: url(../img/s1_saintlaurent_02.jpg) no-repeat center/cover;
+}
+
+.img4 {
+  background: url(../img/s1_verveinementhe_01.jpg) no-repeat center/cover;
+}
+
+.img4:hover {
+  background: url(../img/s1_verveinementhe_02.jpg) no-repeat center/cover;
+}
+
+.img5 {
+  background: url(../img/s1_breakfast_01.jpg) no-repeat center/cover;
+}
+
+.img5:hover {
+  background: url(../img/s1_breakfast_02.jpg) no-repeat center/cover;
+}
+
+.img6 {
+  background: url(../img/s1_montreal_01.jpg
+) no-repeat center/cover;
+}
+
+.img6:hover {
+  background: url(../img/s1_montreal_02.jpg) no-repeat center/cover;
+}
+
+.img7 {
+  background: url(../img/s1_rooibosvert_01.jpg) no-repeat center/cover;
+}
+
+.img7:hover {
+  background: url(../img/s1_rooibosvert_02.jpg) no-repeat center/cover;
+}
+
+.img8 {
+  background: url(../img/s1_kirroyal_01.jpg) no-repeat center/cover;
+}
+
+.img8:hover {
+  background: url(../img/s1_kirroyal_02.jpg) no-repeat center/cover;
+}
+
+.img9 {
+  background: url(../img/s1_camomilleorange_01.jpg) no-repeat center/cover;
+}
+
+.img9:hover {
+  background: url(../img/s1_camomilleorange_02.jpg) no-repeat center/cover;
+}
+
+.img10 {
+  background: url(../img/s1_oolongmilky_01.jpg) no-repeat center/cover;
+}
+
+.img10:hover {
+  background: url(../img/s1_oolongmilky_02.jpg) no-repeat center/cover;
+}
+
+.img11 {
+  background: url(../img/s1_earlgrey_01.jpg) no-repeat center/cover;
+}
+
+.img11:hover {
+  background: url(../img/s1_earlgrey_02.jpg) no-repeat center/cover;
+}
+
+.img12 {
+  background: url(../img/s1_darjeeling_01.jpg) no-repeat center/cover;
+}
+
+.img12:hover {
+  background: url(../img/s1_darjeeling_02.jpg) no-repeat center/cover;
+}
+
+.textbox p {
+  margin-top: 3.5px;
+  margin-left: 4px;
+}
+
+.eng {
+  font-size: 1.1em;
+  font-family: 'NanumSquareNeoExtraBold';
+}
+
+.kor,
+.price {
+  font-size: 1.1em;
+}
+
+.ex {
+  font-size: .9em;
+}
+
+.line {
+  width: 145px;
+  height: 1px;
+  margin-top: 3px;
+  margin-left: 4px;
+  background: #777;
+}
+
+/* tablet 768 */
+@media screen and (min-width:768px) {
+  .tea {
+    max-width: 768px;
+    margin-top: 120px;
+  }
+
+  .title {
+    margin-left: 80px;
+    font-size: 2.6em;
+  }
+
+  .category {
+    width: 305px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+  }
+
+  .category p {
+    font-size: 2em;
+  }
+
+  .all,
+  .tealeaves,
+  .teabag {
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+  .teabag p {
+    transform: translateY(9px);
+  }
+
+  .all,
+  .tealeaves {
+    transform: translateY(2px);
+  }
+
+  .all p,
+  .tealeaves p {
+    transform: translateY(7px);
+  }
+
+  .all,
+  .tealeaves {
+    margin-right: 15px;
+  }
+
+  .conts {
+    width: 608px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+  }
+
+  .conts>div {
+    width: 190px;
+    height: 290px;
+    margin-right: 16px;
+    margin-bottom: 30px;
+  }
+
+  .conts>div:nth-child(even) {
+    margin-right: 16px;
+  }
+
+  .conts>div:nth-child(3n) {
+    margin-right: 0px;
+  }
+
+  .conts>div div:nth-child(1) {
+    width: 190px;
+    height: 190px;
+  }
+
+  .textbox p {
+    margin-left: 9px;
+    margin-top: 8px;
+  }
+
+  .eng,
+  .kor,
+  .price {
+    font-size: 1.2em;
+  }
+
+  .ex {
+    font-size: 1em;
+  }
+
+  .line {
+    width: 180px;
+    margin-top: 9px;
+    margin-left: 5px;
+  }
+}
+
+/* tablet 1024 */
+@media screen and (min-width:1024px) {
+  .tea {
+    max-width: 1024px;
+    margin-top: 160px;
+  }
+
+  .title {
+    margin-left: 60px;
+    font-size: 3.8em;
+  }
+
+  .category {
+    width: 250px;
+    height: 30px;
+    margin-left: 60px;
+  }
+
+  .category p {
+    font-size: 1.8em;
+  }
+
+  .all,
+  .tealeaves,
+  .teabag {
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+  }
+
+  .teabag p {
+    transform: translateY(5px);
+  }
+
+  .all p,
+  .tealeaves p {
+    transform: translateY(4px);
+  }
+
+  .conts {
+    width: 904px;
+    margin-left: 60px;
+  }
+
+  .conts>div {
+    width: 211px;
+    height: 331px;
+    margin-right: 17px;
+  }
+
+  .conts>div:nth-child(even) {
+    margin-right: 17px;
+  }
+
+  .conts>div:nth-child(3n) {
+    margin-right: 17px;
+  }
+
+  .conts>div:nth-child(4n) {
+    margin-right: 0px;
+  }
+
+  .conts>div div:nth-child(1) {
+    width: 211px;
+    height: 211px;
+  }
+
+  .textbox p {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .eng,
+  .kor,
+  .price {
+    font-size: 1.4em;
+  }
+
+  .ex {
+    font-size: 1.2em;
+  }
+
+  .line {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 6px;
+  }
+}
+
+/* tablet 1920 */
+@media screen and (min-width:1920px) {
+  .tea {
+    max-width: 1920px;
+    margin-top: 200px;
+  }
+
+  .title {
+    margin-left: 100px;
+    font-size: 5.4em;
+  }
+
+  .category {
+    width:380px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 100px;
+  }
+
+  .category p {
+    font-size: 2.4em;
+  }
+
+  .all,
+  .tealeaves,
+  .teabag {
+    width: 110px;
+    height: 50px;
+    border-radius: 25px;
+  }
+
+  .teabag p {
+    transform: translateY(12px);
+  }
+
+  .all,
+  .tealeaves {
+    border: 3px solid #c82e2e;
+    transform: translateY(2px);
+  }
+
+  .all p,
+  .tealeaves p {
+    transform: translateY(10px);
+  }
+
+  .all,
+  .tealeaves {
+    margin-right: 20px;
+  }
+
+  .conts {
+    width: 1720px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+  }
+
+  .conts>div {
+    width: 400px;
+    height: 600px;
+    margin-right: 37px;
+    margin-bottom: 50px;
+  }
+
+  .conts>div:nth-child(even) {
+    margin-right: 37px;
+  }
+
+  .conts>div:nth-child(3n) {
+    margin-right: 37px;
+  }
+
+  .conts>div:nth-child(4n) {
+    margin-right: 0px;
+  }
+
+  .conts>div div:nth-child(1) {
+    width: 400px;
+    height: 400px;
+  }
+
+  .textbox p {
+    margin-top: 17px;
+    margin-left: 14px;
+  }
+
+  .eng {
+    font-size: 2.4em;
+  }
+
+  .kor,
+  .price {
+    font-size: 2.2em;
+  }
+
+  .ex {
+    font-size: 1.8em;
+  }
+
+  .line {
+    width: 380px;
+    margin-top: 22px;
+    margin-left: 10px;
+  }
+}

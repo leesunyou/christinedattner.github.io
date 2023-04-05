@@ -1,0 +1,596 @@
+#shop {
+  width: 315px;
+  margin: 0 auto;
+}
+
+.shop {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+.shop p {
+  font-size: 1.7em;
+  font-family: 'NanumSquareNeoBold';
+  cursor: default;
+}
+
+#laboutique {
+  width: 315px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.laboutique {
+  height: 782px;
+}
+
+.title {
+  margin-bottom: 15px;
+  font-size: 1.4em;
+  font-family: 'NanumSquareNeoBold';
+  cursor: default;
+}
+
+.laboutique img {
+  width: 315px;
+  margin-bottom: 20px;
+}
+
+.sub_title {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  font-size: 1.2em;
+  font-family: 'NanumSquareNeoExtraBold';
+  cursor: default;
+}
+
+.line1 {
+  width: 315px;
+  height: 1px;
+  margin-bottom: 40px;
+  background: #777;
+}
+
+.la_cont {
+  position: relative;
+  margin-bottom: 40px;
+  cursor: default;
+}
+
+.la_cont>div {
+  display: inline-block;
+  width: 152.5px;
+  text-align: center;
+}
+
+.add_title,
+.time_title {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-family: 'NanumSquareNeoBold';
+}
+
+.add_ex,
+.time_ex {
+  font-size: .9em;
+  line-height: 13px;
+}
+
+.time {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.maps iframe {
+  width: 315px;
+  height: 145px;
+}
+
+.line2 {
+  width: 200px;
+  height: 2px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  background: #777;
+}
+
+#store {
+  width: 315px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.store {
+  width: 318px;
+}
+
+.store>div {
+  display: inline-block;
+  width: 152.5px;
+  height: 197px;
+}
+
+.store1,
+.store2,
+.store3,
+.store4,
+.store5,
+.store6 {
+  margin-bottom: 20px;
+}
+
+.store1,
+.store3,
+.store5,
+.store7 {
+  margin-right: 10px;
+}
+
+.store>div>img {
+  width: 100%;
+}
+
+.textbox {
+  position: relative;
+  width: 152.5px;
+  height: 90px;
+  background: #fff;
+  cursor: default;
+}
+
+.textbox p {
+  text-align: center;
+}
+
+.name {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-family: 'NanumSquareNeoBold';
+  transform: translateY(5px);
+}
+
+.location {
+  margin-bottom: 10px;
+  font-size: 1em;
+  line-height: 14px;
+  transform: translateY(5px);
+}
+
+.go_maps {
+  width: 70px;
+  height: 17.5px;
+  margin: 0 auto;
+  border: 1px solid #c82e2e;
+  transform: translateY(5px);
+  transition: .3s;
+}
+
+.go_maps p {
+  margin-top: 2.5px;
+  color: #c82e2e;
+  font-size: .9em;
+  font-family: 'NanumSquareNeoBold';
+}
+
+.go_maps:hover {
+  background: #c82e2e;
+}
+
+.go_maps:hover p {
+  color: #fff;
+}
+
+
+/* tablet 768 */
+@media screen and (min-width:768px) {
+  #shop {
+    width: 608px;
+  }
+
+  .shop {
+    margin-bottom: 60px;
+  }
+
+  .shop p {
+    font-size: 2.6em;
+  }
+
+  #laboutique {
+    width: 608px;
+    margin-bottom: 60px;
+  }
+
+  .laboutique {
+    height: 1441px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+
+  .laboutique img {
+    width: 608px;
+    margin-bottom: 30px;
+  }
+
+  .sub_title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2.2em;
+  }
+
+  .line1 {
+    width: 608px;
+    margin-bottom: 60px;
+  }
+
+  .la_cont {
+    margin-bottom: 60px;
+  }
+
+  .la_cont>div {
+    width: 294px;
+  }
+
+  .add_title,
+  .time_title {
+    margin-bottom: 30px;
+    font-size: 2em;
+  }
+
+  .add_ex,
+  .time_ex {
+    font-size: 1.6em;
+    line-height: 24px;
+  }
+
+  .maps iframe {
+    width: 608px;
+    height: 280px;
+  }
+
+  .line2 {
+    width: 300px;
+    margin-bottom: 60px;
+  }
+
+  #store {
+    width: 608px;
+    margin-bottom: 120px;
+  }
+
+  .store {
+    width: 611px;
+  }
+
+  .store>div {
+    width: 294px;
+    height: 386px;
+  }
+
+  .store1,
+  .store2,
+  .store3,
+  .store4,
+  .store5,
+  .store6 {
+    margin-bottom: 60px;
+  }
+
+  .store1,
+  .store3,
+  .store5,
+  .store7 {
+    margin-right: 20px;
+  }
+
+  .textbox {
+    width: 294px;
+    height: 180px;
+  }
+
+  .name {
+    margin-bottom: 20px;
+    font-size: 2.2em;
+    transform: translateY(15px);
+  }
+
+  .location {
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    line-height: 24px;
+    transform: translateY(15px);
+  }
+
+  .go_maps {
+    width: 120px;
+    height: 35px;
+    border: 2px solid #c82e2e;
+    transform: translateY(15px);
+  }
+
+  .go_maps p {
+    margin-top: 8px;
+    font-size: 1.4em;
+  }
+}
+
+
+/* tablet 1024 */
+@media screen and (min-width:1024px) {
+  #shop {
+    width: 904px;
+  }
+
+  .shop {
+    margin-top: 160px;
+    margin-bottom: 80px;
+  }
+
+  .shop p {
+    font-size: 3.8em;
+  }
+
+  #laboutique {
+    width: 904px;
+    margin-bottom: 80px;
+  }
+
+  .laboutique {
+    height: 2104px;
+  }
+
+  .title {
+    margin-bottom: 30px;
+    font-size: 3em;
+  }
+
+  .laboutique img {
+    width: 904px;
+    margin-bottom: 40px;
+  }
+
+  .sub_title {
+    font-size: 3.4em;
+    margin-bottom: 15px;
+  }
+
+  .line1 {
+    width: 904px;
+    margin-bottom: 80px;
+  }
+
+  .la_cont {
+    margin-bottom: 80px;
+  }
+
+  .la_cont>div {
+    width: 442px;
+  }
+
+  .add_title,
+  .time_title {
+    margin-bottom: 40px;
+    font-size: 2.8em;
+  }
+
+  .add_ex,
+  .time_ex {
+    font-size: 2.2em;
+    line-height: 34px;
+  }
+
+  .maps iframe {
+    width: 904px;
+    height: 420px;
+  }
+
+  .line2 {
+    width: 500px;
+    margin-bottom: 80px;
+  }
+
+  #store {
+    width: 904px;
+    margin-bottom: 160px;
+  }
+
+  .store {
+    width: 912px;
+  }
+
+  .store>div {
+    width: 211px;
+    height: 277px;
+  }
+
+  .store1,
+  .store2,
+  .store3,
+  .store4 {
+    margin-bottom: 60px;
+  }
+
+  .store5,
+  .store6,
+  .store7,
+  .store8 {
+    margin-bottom: 0px;
+  }
+
+
+  .store1,
+  .store2,
+  .store3,
+  .store5,
+  .store6,
+  .store7 {
+    margin-right: 20px;
+  }
+
+  .textbox {
+    width: 211px;
+    height: 130px;
+  }
+
+  .name {
+    margin-bottom: 15px;
+    font-size: 1.6em;
+    transform: translateY(15px);
+  }
+
+  .location {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    line-height: 18px;
+    transform: translateY(15px);
+  }
+
+  .go_maps {
+    width: 90px;
+    height: 25px;
+    transform: translateY(15px);
+  }
+
+  .go_maps p {
+    font-size: 1em;
+    margin-top: 4.5px;
+  }
+}
+
+
+/* pc 1920 */
+@media screen and (min-width:1920px) {
+  #shop {
+    width: 1720px;
+  }
+
+  .shop {
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+
+  .shop p {
+    font-size: 5.4em;
+  }
+
+  #laboutique {
+    width: 1720px;
+    margin-bottom: 100px;
+  }
+
+  .laboutique {
+    height: 3750px;
+  }
+
+  .title {
+    margin-bottom: 40px;
+    font-size: 4em;
+  }
+
+  .laboutique img {
+    width: 1720px;
+    margin-bottom: 60px;
+  }
+
+  .sub_title {
+    margin-bottom: 20px;
+    font-size: 4.8em;
+  }
+
+  .line1 {
+    width: 1720px;
+    margin-bottom: 100px;
+  }
+
+  .la_cont {
+    margin-bottom: 100px;
+  }
+
+  .la_cont>div {
+    width: 840px;
+  }
+
+  .add_title,
+  .time_title {
+    margin-bottom: 60px;
+    font-size: 3.8em;
+  }
+
+  .add_ex,
+  .time_ex {
+    font-size: 3.2em;
+    line-height: 50px;
+  }
+
+  .maps iframe {
+    width: 1720px;
+    height: 800px;
+  }
+
+  .line2 {
+    width: 1000px;
+    margin-bottom: 100px;
+  }
+
+  #store {
+    width: 1720px;
+    margin-bottom: 200px;
+  }
+
+  .store {
+    width: 1728px;
+  }
+
+  .store>div {
+    width: 400px;
+    height: 530px;
+  }
+
+  .store1,
+  .store2,
+  .store3,
+  .store4 {
+    margin-bottom: 80px;
+  }
+
+  .store1,
+  .store2,
+  .store3,
+  .store5,
+  .store6,
+  .store7 {
+    margin-right: 40px;
+  }
+
+  .textbox {
+    width: 400px;
+    height: 250px;
+  }
+
+  .name {
+    margin-bottom: 30px;
+    font-size: 3em;
+    transform: translateY(24px);
+  }
+
+  .location {
+    margin-bottom: 30px;
+    font-size: 2.4em;
+    line-height: 32px;
+    transform: translateY(24px);
+  }
+
+  .go_maps {
+    width: 150px;
+    height: 40px;
+    transform: translateY(24px);
+  }
+
+  .go_maps p {
+    margin-top: 8px;
+    font-size: 1.8em;
+  }
+}
